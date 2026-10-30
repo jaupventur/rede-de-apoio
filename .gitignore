@@ -1,0 +1,31 @@
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Java (caso o backend seja Spring Boot)
+target/
+build/
+.gradle/
+*.class
+
+# IDEs e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
